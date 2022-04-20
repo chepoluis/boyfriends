@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BoyfriendsApp } from './BoyfriendsApp';
 import Home from './Home';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+    {/* <Home /> */}
+    <BoyfriendsApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
