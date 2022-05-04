@@ -1,0 +1,54 @@
+/* .home {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ff8899;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+  background: lightblue;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.form-container {
+  width: 360px;
+  background-color: blueviolet;
+  margin: auto;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  padding: 10px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.form-field {
+  margin: 10px 0 10px 0;
+  padding: 15px;
+  font-size: 16px;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* .home {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */

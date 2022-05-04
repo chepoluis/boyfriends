@@ -1,0 +1,1 @@
+export const getGif = require.context('../assets/gifs', true);

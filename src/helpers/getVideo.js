@@ -1,0 +1,1 @@
+export const getVideo = require.context('../assets/videos', true);
