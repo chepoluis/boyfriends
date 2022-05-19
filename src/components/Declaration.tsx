@@ -32,8 +32,6 @@ export const Declaration = () => {
 
   useEffect(() => {
     setDeclarationMessage(queryString.parse(location.search))
-    // console.log(queryString.parse(location.search));
-    // console.log(location);
   }, [location]);
 
   const moveButtonRandomly = (): void => {
