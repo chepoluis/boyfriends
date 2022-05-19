@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
-import { getRandomInt } from '../helpers/getRandomInt';
 import queryString, { ParsedQuery } from 'query-string';
+import { useLocation, useNavigate } from 'react-router-dom';
+
+import { getRandomInt } from '../helpers/getRandomInt';
+import { getVideo } from '../helpers/getVideo';
 
 import '../styles/Declaration.css';
 interface ICoordinates {
@@ -52,7 +54,11 @@ export const Declaration = () => {
 
   return (
     <div className='container'>
-      <h1>{ declarationMessage }</h1>
+      <video autoPlay loop muted>
+        <source src={ getVideo(`./background_love.mp4`) } type="video/mp4" />
+      </video>
+
+      <h1 className='title'>{ declarationMessage }</h1>
 
       <div className='buttons'>
         <button
