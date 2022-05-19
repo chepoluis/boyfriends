@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import { BoyfriendsApp } from './BoyfriendsApp';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BoyfriendsApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
