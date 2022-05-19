@@ -1,12 +1,8 @@
 import React, { useState } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
 
 import '../styles/Home.css';
 
 const Home = () => {
-
-  const navigate = useNavigate();
-  const location = useLocation();
 
   const [message, setMessage] = useState<any>('¿Quieres ser mi novia?');
   const [show, setShow] = useState<boolean>(false);

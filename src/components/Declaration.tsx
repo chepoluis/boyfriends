@@ -83,17 +83,5 @@ export const Declaration = () => {
         }
       </div>
     </div>
-      // <div className="home">
-      //   <h2>Hola :D</h2>
-
-      // <button
-      //   style={{
-      //     position: 'absolute',
-      //     top: height,
-      //     right: width
-      //   }}
-      //   onMouseOver={ moveButtonRandomly }
-      // >No</button>
-      // </div>
     )
 }

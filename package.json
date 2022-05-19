@@ -1,7 +1,7 @@
 {
   "name": "boyfriends",
   "version": "0.1.0",
-  "homepage": "https://chepoluis.github.io/boyfriends",
+  "homepage": "https://chepoluis.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
