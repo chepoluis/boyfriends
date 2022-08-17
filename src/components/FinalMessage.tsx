@@ -7,9 +7,9 @@ export const FinalMessage = () => {
     
     return (
         <div>
-            <video autoPlay loop muted>
+            {/* <video autoPlay loop muted>
                 <source src={ getVideo(`./background_love.mp4`) } type="video/mp4" />
-            </video>
+            </video> */}
 
             <h1 className='message'>¡Sabia que dirias que si! 😉</h1>
 

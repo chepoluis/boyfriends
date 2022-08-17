@@ -3,7 +3,7 @@ import queryString, { ParsedQuery } from 'query-string';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 import { getRandomInt } from '../helpers/getRandomInt';
-import { getVideo } from '../helpers/getVideo';
+// import { getVideo } from '../helpers/getVideo';
 
 import '../styles/Declaration.css';
 interface ICoordinates {
@@ -52,9 +52,9 @@ export const Declaration = () => {
 
   return (
     <div className='container'>
-      <video autoPlay loop muted>
+      {/* <video autoPlay loop muted>
         <source src={ getVideo(`./background_love.mp4`) } type="video/mp4" />
-      </video>
+      </video> */}
 
       <h1 className='title'>{ declarationMessage }</h1>
 
